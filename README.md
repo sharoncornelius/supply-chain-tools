@@ -83,7 +83,7 @@ web application to the database.  For example:
     spring.datasource.username=sdo_db_user
     spring.datasource.password=sdo_db_password
 
-### Public key cryptography standards (PKCS#11) Smart Card Library
+### Public Key Cryptography Standards (PKCS#11) Smart Card Library
 
 If you will be using PKCS#11 hardware keystores, install a PKCS#11 smart card
 library on your web server.
@@ -120,7 +120,7 @@ backup files.  The names of these files will be printed to the console.
 Make sure to back these files up to a secure location in case you need
 to recreate the key in future.
 
-**Note:** The ykinit script will reformat your YubiKey security key before it stores the new key.
+***Note:*** The ykinit script will reformat your YubiKey security key before it stores the new key.
 Don't use this script on YubiKey security keys that contain important data.
 It is strongly suggested that you use the [YubiKey Manager tool][5]
 to change the PIN on your YubiKey security key after it has been initialized.
